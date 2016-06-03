@@ -20,7 +20,7 @@ public class TestServlet extends HttpServlet
 		PrintWriter writer = response.getWriter();
 		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-mm-dd hh:MM:ss");
 		String dateTime = formatter.format(new Date());
-		writer.println("The current date is: " + dateTime);
+		writer.println("Updates: The current date is: " + dateTime);
 		writer.flush();
 	}
 	
